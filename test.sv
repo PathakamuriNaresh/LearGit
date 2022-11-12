@@ -1,5 +1,5 @@
 
-module fifo(input [7:0] data_in, input clk,rst,rd,wr, 
+module fifo2(input [7:0] data_in, input clk,rst,rd,wr, 
 	output empty,full, output reg [3:0] ifo_cnt,
 	output reg [7:0] data_out);
 
